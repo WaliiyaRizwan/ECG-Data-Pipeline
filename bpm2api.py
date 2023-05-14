@@ -1,8 +1,6 @@
-import temperature_sensor
 import json
 import pulse_sensor
 import network
-import motion_sensor
 import urequests
 import network
 import time
