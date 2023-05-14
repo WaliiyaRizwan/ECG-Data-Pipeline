@@ -13,7 +13,7 @@ sta_if = network.WLAN(network.STA_IF)
 
 # activate station interface and connect to WiFi network
 sta_if.active(True)
-sta_if.connect("iPhone", "12345678")
+sta_if.connect("SSID", "Password")
 
 # wait for connection
 while not sta_if.isconnected():
@@ -23,7 +23,7 @@ print('WiFi connection established')
 
 
 # Define endpoint URL
-url = "https://avuaqmg1vd.execute-api.us-east-1.amazonaws.com/testA/mymanager"
+url = "url goes here!"
 
 # Read sensor data
 while True:
